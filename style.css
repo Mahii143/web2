@@ -3,6 +3,8 @@ html,body {
 	height: 100%;
 	display: grid;
 	font: white;
+	width: 99.5%;
+
 }
 #link1
 {
@@ -20,13 +22,13 @@ html,body {
 	font-family:verdana;
 }
 
-/* Tablet Landscape */
+/* Tablet Landscape 
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 
-/* Tabled Portrait */
+/* Tabled Portrait 
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
@@ -43,7 +45,7 @@ img { max-width: 100%; }
     img[data-src-800px] {
         content: attr(data-src-800px, url);
     }
-}
+}*/
 .box
 {
 	background-color: white;
