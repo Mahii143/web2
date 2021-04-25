@@ -1,14 +1,13 @@
 html,body {
 	background-color:black;
 	height: 100%;
-	font-size: 1.89vw;
 	display: grid;
 	font: white;
 }
 #link1
 {
 	font-family: tahoma;
-	font-size: 1.5vw; 
+	font-size: 2vw; 
 }
 #div1
 {
