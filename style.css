@@ -1,7 +1,25 @@
-p
+html,body {
+	background-color:black;
+	height: 100%;
+	font-size: 1.89vw;
+	display: grid;
+	font: white;
+}
+#link1
 {
-	font-family: sans-serif;
-	font-size: 100px;
+	font-family: tahoma;
+	font-size: 1.5vw; 
+}
+#div1
+{
+	font-family:verdana;
+	color:white;
+	font-size: 4vw;
+
+}
+#note {
+	color: black;
+	font-family:verdana;
 }
 
 /* Tablet Landscape */
@@ -28,12 +46,18 @@ img { max-width: 100%; }
         content: attr(data-src-800px, url);
     }
 }
-h1{
-	position: absolute;
-	
-}
 .box
 {
-	align-items: center;
-	align-content: center;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	width:90%;
+	margin: auto;
+	font-size: 1.89vw;
+	display: grid;
+}
+
+footer
+{
+	font-size: 1.5vw;
 }
