@@ -3,7 +3,6 @@ html,body {
 	height: 100%;
 	display: grid;
 	font: white;
-	width: 99.5%;
 
 }
 #link1
@@ -35,7 +34,7 @@ html,body {
 }
 img { max-width: 100%; }
 
-@media (min-device-width:600px) {
+/*@media (min-device-width:600px) {
     img[data-src-600px] {
         content: attr(data-src-600px, url);
     }
@@ -45,7 +44,7 @@ img { max-width: 100%; }
     img[data-src-800px] {
         content: attr(data-src-800px, url);
     }
-}
+}*/
 .box
 {
 	background-color: white;
